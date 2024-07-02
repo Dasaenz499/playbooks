@@ -4,10 +4,10 @@
   become: yes
   vars:
     usuarios:
-      - nombre: usuario1
-        password: "ContraseñaSegura1"
-      - nombre: usuario2
-        password: "ContraseñaSegura2"
+      - nombre: usuario3
+        password: "Contrase"
+      - nombre: usuario4
+        password: "Contrase"
         
   tasks:
     - name: Crear usuarios
